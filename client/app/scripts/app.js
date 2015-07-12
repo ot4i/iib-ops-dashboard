@@ -16,7 +16,7 @@ angular
         'restangular',
         'ui.bootstrap',
         'toggle-switch',
-        'autofocus',
+        'ng-autofocus',
         'ui.bootstrap.dropdown',
         'ui.bootstrap.tpls'
     ])
