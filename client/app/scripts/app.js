@@ -18,7 +18,8 @@ angular
         'toggle-switch',
         'ng-autofocus',
         'ui.bootstrap.dropdown',
-        'ui.bootstrap.tpls'
+        'ui.bootstrap.tpls',
+        'iibWidgets'
     ])
     .constant("CONFIG", {
         "API_HOST": "http://localhost:8080",

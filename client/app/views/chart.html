@@ -4,13 +4,19 @@
         
         <!-- CHART DIRECTIVES -->
 
-        <div ng-if="topology" class="col-md-7" id="chart-content" chart datajson="topology" chart-type="chartType" get-resources="getResources(inodeId, iserver, application, messageflow, type, name)"></div>
+        <!--<div ng-if="topology" class="col-md-7" id="chart-content" chart datajson="topology" chart-type="chartType" get-resources="getResources(inodeId, iserver, application, messageflow, type, name)"></div>-->
+        <div  class="col-md-7" id="chart-content">
+          <div iib-circle-chart></div>          
+        </div>
+
+        
+
 
         <!-- END OF CHART DIRECTIVES -->
 
-        <div ng-if="!topology" class="col-md-7">
+        <!--<div ng-if="!topology" class="col-md-7">
           <h1><span class="glyphicon glyphicon-refresh glyphicon-refresh-animate glyphicon-refresh-animate-main"></span></h1>
-        </div>
+        </div>-->
 
 
         <div class="col-md-5">
